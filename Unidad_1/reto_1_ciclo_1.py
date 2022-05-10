@@ -1,7 +1,3 @@
-#usuario = str(input("Ingrese el código de usuario:"))
-#apital_inicial = int(input("Ingrese el valor a invertir en el CDT:"))
-#tiempo = int(input("Ingrese el tiempo(meses) del CDT:"))
-
 def CDT(usuario, capital_inicial, tiempo):
     """CDT
     Parámetros:
