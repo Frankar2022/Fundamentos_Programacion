@@ -1,4 +1,4 @@
-def CDT(usuario, capital_inicial, tiempo):
+def CDT(usuario:str, capital_inicial:float, tiempo:int):
     """CDT
     Parámetros:
         usuario(str): Identifica al cliente del banco

@@ -1,4 +1,4 @@
-def cliente (informacion:dict):
+def cliente (informacion:dict)->dict: 
     if informacion["edad"] > 18:
         if informacion["primer_ingreso"] == True:
             total_boleta = 20000 * 0.95
@@ -32,8 +32,8 @@ def cliente (informacion:dict):
 informacion = {
     'id_cliente': 1,
     'nombre': 'Johana Fernandez',
-    'edad': 6,
-    'primer_ingreso': True
+    'edad': 7,
+    'primer_ingreso': False
 }
 print(cliente(informacion))    
  
